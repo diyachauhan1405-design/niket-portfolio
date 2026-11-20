@@ -39,3 +39,9 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+# raw/original photo exports (large, unused by the site).
+# Only optimised site images in portfolio/ and the logo are tracked.
+/public/images/*
+!/public/images/portfolio/
+!/public/images/logo.png
